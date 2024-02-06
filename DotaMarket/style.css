@@ -1,0 +1,115 @@
+
+
+body {
+	background-repeat: no-repeat;
+	background-image: url("bg-market.jpeg") ;
+	background-color: #121212;
+	background-size: no-repeat;
+	color: #c2c2c4;
+}
+
+h1{
+	color: #F0F0F0;
+	margin-top: 650px;
+	font-size: 120px;
+}
+
+h2{
+	margin-top: 0;
+}
+
+h5 {
+	margin: 3px;
+}
+
+div {
+	border-right: 1px solid hsla(0,0%,100%,.05);
+}
+
+.button_main_menu {
+	border-radius: 0 12px 12px 0;
+	color: #141414;
+	border: azure;
+	margin: 12px;
+	width: 48px;
+	height: 48px;
+	background-color: #222;
+}
+
+.main_menu {
+	display: none;
+	padding: 12px;
+	font-size: 24px;
+	margin-left: 48px;
+	background-color: #121212;
+	top: 0;
+	left: 0;
+	width: 	150px;
+	position: fixed;
+	border: 1px solid hsla(0,0%,100%,.05);
+	border-radius: 0 0 10px 0;
+}
+
+.menu{
+	margin: 0 10% 150px 10%;
+	border-radius: 50px;
+	padding: 50px 50px 75px 50px;
+	background-color: #181818;
+	font-size: 30px;
+}
+
+.button_main_menu_panel {
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+
+.button_main {
+	border-style: none;
+	border-radius: 5px;
+	color: #c2c2c4;
+	background-color: #222;
+	height: 30px;
+	margin: 2px;
+}
+
+.left_panel {
+	background-color: #121212;
+	top: 0;
+	left: 0;
+	width: 	48px;
+	height: 100%;
+	position: fixed;
+}
+
+.bg_panel{
+	z-index: -1;
+	top: 900px;
+	position: absolute;
+	height: 100%;
+	width: 99%;
+	background-color: #121212;
+}
+
+img {
+	border-radius: 10px;
+}
+
+.gold{
+	margin: 0 5px 0 20px;
+}
+
+.product{
+	margin: 35px 0 0 30px;
+	display: inline-block;
+	border-radius: 15px;
+	border: 1px solid hsla(0,0%,100%,.05);
+	padding: 25px;
+	width: 18%;
+	background: #222;
+}
+
+a {
+	color: #c2c2c4;
+	text-decoration: none;
+}
