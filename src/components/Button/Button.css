@@ -1,0 +1,19 @@
+.button {
+    margin: 0 0.4rem;
+    padding: 0.8rem 2rem;
+    color: aquamarine;
+    background-color: #121212;
+    border: none;
+    border-radius: 1rem;
+}
+
+.button:hover{
+    margin-top: 1px;
+    opacity: 0.8;
+}
+
+.button.active {
+    background-color: aquamarine;
+    color: #121212;
+    border: solid 1px #121212;
+}
