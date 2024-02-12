@@ -1,0 +1,16 @@
+
+.product-container {
+    max-width: 600px;
+    display: flex;
+    border: solid 1px;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+
+.product {
+    border: solid 1px;
+    border-radius: 1rem;
+    margin: 0 0.4rem;
+    padding: 0.8rem 2rem;
+}

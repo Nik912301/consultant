@@ -19,3 +19,18 @@ export const differences = {
     jopa:'JooooooPAAAaaaa',
     penis:'PENIS',
 }
+
+export const products = [
+    {
+        title:'BANANAS',
+        text:'i love bananas'
+    },
+    {
+        title:'PeniS',
+        text:'i love penis',
+    },
+    {
+        title:'CHaCha',
+        text:'hui pinat ochen lublu i yecho sosat ih potom mmmm vcusno'
+    }
+]

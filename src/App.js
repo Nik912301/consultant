@@ -3,6 +3,7 @@ import Header from './components/Header';
 import MainSection from './components/MainSection';
 import DifferencesSection from './components/DifferencesSection';
 import IntroSection from './components/IntroSection';
+import Product from './components/Product/Product';
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <IntroSection />
         <MainSection />
         <DifferencesSection />
+        <Product />
       </main>
     </>
   );
