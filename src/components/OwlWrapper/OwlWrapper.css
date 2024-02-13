@@ -1,0 +1,11 @@
+.owl-wrapper {
+    display: block;
+    width: 1940px;
+    left: 0px;
+    transition: all 0ms ease 0s;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-item {
+    width: 970px;
+}

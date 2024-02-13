@@ -1,0 +1,59 @@
+
+export const menuItems = [
+    {
+        title:'Главная',
+        href:''
+    },
+    {
+        title:'О курорте',
+        href:'',
+        ul:[
+                {
+                    title:'Новости и статьи',
+                    href:''
+                },
+                {
+                    title:'Сотрудничество',
+                    href:''
+                },
+                {
+                    title:'Отзывы',
+                    href:''
+                }
+            ]
+    },
+    {
+        title:'Программы',
+        href:''
+    },
+    {
+        title:'Номера',
+        href:''
+    },
+    {
+        title:'Процедуры',
+        href:''
+    },
+    {
+        title:'Развлечения',
+        href:'',
+        ul:[
+            {
+                title:'Экскурсии',
+                href:''
+            }
+        ]
+    },
+    {
+        title:'Прайс',
+        href:''
+    },
+    {
+        title:'Галерея',
+        href:''
+    },
+    {
+        title:'Контакты',
+        href:''
+    },
+]
