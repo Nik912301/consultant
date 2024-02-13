@@ -8,19 +8,19 @@ export const menuItems = [
         title:'О курорте',
         href:'',
         ul:[
-            {
-                title:'Новости и статьи',
-                href:''
-            },
-            {
-                title:'Сотрудничество',
-                href:''
-            },
-            {
-                title:'',
-                href:'Отзывы'
-            }
-        ]
+                {
+                    title:'Новости и статьи',
+                    href:''
+                },
+                {
+                    title:'Сотрудничество',
+                    href:''
+                },
+                {
+                    title:'Отзывы',
+                    href:''
+                }
+            ]
     },
     {
         title:'Программы',
@@ -36,7 +36,13 @@ export const menuItems = [
     },
     {
         title:'Развлечения',
-        href:''
+        href:'',
+        ul:[
+            {
+                title:'Экскурсии',
+                href:''
+            }
+        ]
     },
     {
         title:'Прайс',

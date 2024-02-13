@@ -1,24 +1,21 @@
 import './Head.css'
 import HeaderMenu from './HeaderMenu'
+import HeaderLogo from './HeaderLogo'
 
 export default function Head(){
     return (
         <header id="header">
             <div class="header_content" id="header_content">
               <div class="container">
-        
-                <div class="header_logo">
-                  <a href="/">
-                    <img src="assets/images/demo/logo.png" alt="Отель" />
-                  </a>
-                </div>
-        
-                <nav class="header_menu">
-                  <HeaderMenu />
-                </nav>
+
+                <HeaderLogo />
+                
+                <HeaderMenu />
+
                 <span class="menu-bars">
                   <span></span>
                 </span>
+
               </div>
             </div>
         </header>
