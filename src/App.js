@@ -5,7 +5,7 @@ import DifferencesSection from './components/DifferencesSection';
 import IntroSection from './components/IntroSection';
 import Product from './components/Product/Product';
 import Head from './components/Head/Head';
-import OwlWrapper from './components/OwlWrapper/OwlWrapper';
+import SectionAccomd from './components/SectionAccomd/SectionAccomd';
 
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
 
     <>
       <Head />
-      <OwlWrapper />
+      <SectionAccomd />
     </>
 
     //<>
