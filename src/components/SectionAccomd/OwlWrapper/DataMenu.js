@@ -83,3 +83,30 @@ export const dataMenu2 = [
         forHow:''
     },
 ]
+
+function createContent(item){
+    return(
+        <div className="restaurant_content tab_content active" id="simple_tabs-1-tab-1">
+            <a href={item.imgHref}>
+                <img src={item.img} alt={item.text} />
+             </a>
+            <div class="text">
+                <h2><a href={item.textHref}>{item.text}</a></h2>
+                <p className="price">
+                    <span className="amout">{item.price}</span>{item.forHow}
+                </p>
+            </div>
+            <div class="owl-controls clickable">
+                <span className=""></span>
+                <i className="lotus-icon-left-arrow"></i>
+                <i className="lotus-icon-right-arrow"></i>
+            </div>
+            <a href="nomera-v-panchakarma-institute-dr.-franklin.html" className="awe-btn awe-btn-default">Все номера</a>
+        </div>
+    )
+}
+
+export const buttons = {
+    but2:dataMenu1.map(item =>(createContent(item))),
+    but1:dataMenu2.map(item =>(createContent(item))),
+}

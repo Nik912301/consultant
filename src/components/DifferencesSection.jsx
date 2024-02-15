@@ -1,4 +1,4 @@
-import Button from './Button/Button';
+import Button from './SectionAccomd/OwlWrapper/Button/Button';
 import { useState } from 'react';
 import { differences } from '../data';
 
